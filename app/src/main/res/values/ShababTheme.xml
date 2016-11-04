@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="shaabab_bg_color" >#009900</color>
+    <style name="shababBackgroundImage" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/shaabab_bg_color</item>
+    </style>
+</resources>
