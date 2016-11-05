@@ -62,8 +62,8 @@
                     android:layout_marginTop="16dp"
                     android:text="@string/action_sign_in"
                     android:textStyle="bold"
-                    android:onClick="saveLoginInfo (LoginActivity)"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:onClick="saveLoginInfo" />
 
             </android.support.design.widget.TextInputLayout>
 

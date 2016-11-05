@@ -4,6 +4,15 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Username</string>
     <string name="prompt_password">Password</string>
+
+
+    <!-- Strings related to Member Details -->
+    <string name="member_name">Member Name</string>
+    <string name="ejamaat_no">Ejamaat Number</string>
+    <string name="mob_no">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="status">Status</string>
+
     <string name="action_sign_in">Sign In</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">Username Invalid (Minimum : 8 Maximum :15)</string>
