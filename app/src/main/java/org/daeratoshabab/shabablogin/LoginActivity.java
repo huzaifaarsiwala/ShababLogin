@@ -194,6 +194,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
+            //Huzaifa Code
+            new SigninActivity(this,1).execute(mEmailView.getText().toString(),mPasswordView.getText().toString());
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
         }
