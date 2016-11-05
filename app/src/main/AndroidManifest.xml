@@ -13,19 +13,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <!-- Theme applies to entire Application -->
-        <!-- android:theme="@style/shababBackgroundImage "-->
+        <!-- android:theme="@style/shababBackgroundImage " -->
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name">
+
             <!-- Theme applies to an Activity -->
-            <!-- android:theme="@style/shababBackgroundImage "-->
+            <!-- android:theme="@style/shababBackgroundImage " -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ShababHome"></activity>
     </application>
 
 </manifest>
